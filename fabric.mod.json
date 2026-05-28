@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sattigungsmod",
+  "version": "${version}",
+  "name": "Sättigungs Mod",
+  "description": "Eine Mod um die Sättigungsfarbe anzupassen und mit einem GUI zu verwalten",
+  "authors": [
+    "einfachduncan"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sattigungsmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.einfachduncan.sattigungsmod.SattigungsModInit"
+    ],
+    "client": [
+      "com.einfachduncan.sattigungsmod.client.SattigungsModClient"
+    ]
+  },
+  "mixins": [
+    "sattigungsmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

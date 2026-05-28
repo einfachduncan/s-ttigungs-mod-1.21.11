@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.einfachduncan.sattigungsmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "HudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
